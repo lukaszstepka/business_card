@@ -1,1 +1,14 @@
-body{background-color: aquamarine;}
+body{
+    background-color:#2C2141;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.main{
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    width: 624px;
+    height: 340px;
+    margin: 16px;
+}
