@@ -24,6 +24,9 @@ body {
 .person{
 
 }
+.person__info{
+    margin-bottom: 24px;
+}
 .person__name{
     font-size: 36px;
     margin: 0;
@@ -38,12 +41,19 @@ body {
 .person__description{
     font-size: 18px;
     line-height: 22px;
+    margin: 0;
+}
+.person__description--with-margin{
+    margin-bottom: 22px;
 }
 .special{
     color: #ED6D05;
     font-weight: normal;
 }
 .special__social{
+    font-weight: normal; 
+}
+.person__link{
     color: #E20613;
-    font-weight: normal;
+    text-decoration: none;
 }
